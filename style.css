@@ -20,16 +20,6 @@ card1 {
     padding: 12px;
 }
 
-btn {
-    background-color: #1155ff;
-    color: #ffffff;
-    border-radius: 20px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-right: 18px;
-    padding-left: 18px;
-}
-
 img {
     border-radius: 5px;
 }
@@ -40,15 +30,17 @@ img {
     max-width: 50%;
     width: 256px;
     margin: 12px;
+    vertical-align: middle;
 }
 
 .screenshot.faded {
+    display: inline-block;
     background-color: #111213;
     border-radius: 20px;
     max-width: 40%;
     width: 192px;
     opacity: 60%;
-    margin-bottom: 10%;
+    vertical-align: middle;
 }
 
  ::-moz-selection {
@@ -88,7 +80,7 @@ h1 {
 a.topRight {
     float: right;
     display: inline-block;
-    background-color: #1155ff;
+    background-color: #252627;
     color: #ffffff;
     border-radius: 20px;
     padding-top: 12px;
@@ -97,4 +89,40 @@ a.topRight {
     padding-left: 18px;
     text-decoration: none;
     margin: 12px;
+}
+
+@media only screen and (max-device-width: 564px) {
+
+    .screenshot {
+        background-color: #252627;
+        border-radius: 20px;
+        max-width: 90%;
+        width: 256px;
+        margin: 0px;
+    }
+    
+    h1 {
+        display: none;
+    }
+    
+    a.topRight {
+        float: none;
+        display: block;
+        background-color: #252627;
+        color: #ffffff;
+        border-radius: 20px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-right: 22px;
+        padding-left: 22px;
+        text-decoration: none;
+        margin: 12px;
+    }
+}
+
+
+@media only screen and (max-device-width: 750px) {
+    .screenshot.faded {
+        display: none;
+    }
 }
