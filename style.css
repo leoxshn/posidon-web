@@ -91,7 +91,7 @@ a.topRight {
     margin: 12px;
 }
 
-@media only screen and (max-device-width: 564px) {
+@media only screen and (max-width: 564px) {
 
     .screenshot {
         background-color: #252627;
@@ -121,7 +121,7 @@ a.topRight {
 }
 
 
-@media only screen and (max-device-width: 750px) {
+@media only screen and (max-width: 750px) {
     .screenshot.faded {
         display: none;
     }
