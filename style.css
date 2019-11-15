@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "posidonsans";
+    src: url("posidonsans.ttf");
+}
+
+body {
+    background-color: #000000;
+    color: #dddddd;
+}
+
+* {
+    font-weight:normal;
+    font-family: posidonsans;
+}
+
+card1 {
+    background-color: #252627;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 12px;
+}
+
+btn {
+    background-color: #1155ff;
+    color: #ffffff;
+    border-radius: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 18px;
+    padding-left: 18px;
+}
+
+img {
+    border-radius: 5px;
+}
+
+.screenshot {
+    background-color: #252627;
+    border-radius: 25px;
+    max-width: 50%;
+    width: 256px;
+    margin: 12px;
+}
+
+.screenshot.faded {
+    background-color: #111213;
+    border-radius: 20px;
+    max-width: 40%;
+    width: 192px;
+    opacity: 60%;
+    margin-bottom: 10%;
+}
+
+ ::-moz-selection {
+    color: #ffffff;
+    background-color: #555555;
+}
+
+::selection {
+    color: #ffffff;
+    background-color: #555555;
+}
+
+p {
+    text-align: left;
+    font-size: 16px;
+}
+
+h3 {
+    text-align: left;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+h2 {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 24px;
+    display: inline-block;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 64px;
+}
+
+a.topRight {
+    float: right;
+    display: inline-block;
+    background-color: #1155ff;
+    color: #ffffff;
+    border-radius: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 18px;
+    padding-left: 18px;
+    text-decoration: none;
+    margin: 12px;
+}
