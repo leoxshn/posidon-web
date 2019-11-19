@@ -5,7 +5,7 @@
 
 body {
     background-color: #000000;
-    color: #dddddd;
+    color: #dddedf;
 }
 
 * {
@@ -62,7 +62,7 @@ h3 {
     text-align: left;
     color: #ffffff;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 h2 {
@@ -75,6 +75,7 @@ h2 {
 h1 {
     color: #ffffff;
     font-size: 64px;
+	margin-bottom: 16px;
 }
 
 a.topRight {
@@ -91,7 +92,7 @@ a.topRight {
     margin: 12px;
 }
 
-@media only screen and (max-width: 564px) {
+@media only screen and (max-width: 570px) {
 
     .screenshot {
         background-color: #252627;
