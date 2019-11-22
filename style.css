@@ -57,14 +57,16 @@ img {
 	animation-duration: 1s;
 }
 
- ::-moz-selection {
-    color: #ffffff;
-    background-color: #555555;
+::-moz-selection {
+	color: #b9f4ff;
+	background-color: #003943;
+	border-radius: 10px;
 }
 
 ::selection {
-    color: #ffffff;
-    background-color: #555555;
+    color: #b9f4ff;
+    background-color: #003943;
+	border-radius: 10px;
 }
 
 p {
@@ -119,6 +121,10 @@ a.topRight {
 	animation-name: alpha-in;
 	animation-duration: 0.3s;
 }
+a.topRight:hover {
+    background-color: #11151f;
+    color: #d0e0ff;
+}
 
 .getitongoogleplay {
 	animation-name: alpha-in;
@@ -147,15 +153,8 @@ a.topRight {
     a.topRight {
         float: none;
         display: block;
-        background-color: #252627;
-        color: #ffffff;
-        border-radius: 20px;
-        padding-top: 12px;
-        padding-bottom: 12px;
         padding-right: 22px;
         padding-left: 22px;
-        text-decoration: none;
-        margin: 12px;
     }
 }
 
