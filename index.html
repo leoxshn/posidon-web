@@ -8,7 +8,7 @@
         <meta name="keywords" content="posidon, launcher, feed, one, page, scroll, home, homescreen, android, customization, personalization, custom">
         <link rel="stylesheet" href="style.css">
         <link rel="icon" href="img/favicon.ico">
-        <meta name="theme-color" content="#1155ff">
+        <meta name="theme-color" content="#000000">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     </head>
     <body>
@@ -21,10 +21,24 @@
             <h1>posidon</h1>
             
             <div class="carousel">
-                <img class="screenshot faded" src="img/screenshots/home1.jpg"/>
-                <img class="screenshot" src="img/screenshots/home2.jpg"/>
-                <img class="screenshot faded" src="img/screenshots/home3.jpg"/>
+                <img id="scrn0" class="screenshot faded" src="img/screenshots/home1.jpg"/>
+                <img id="scrn1" class="screenshot" src="img/screenshots/home2.jpg"/>
+                <img id="scrn2" class="screenshot faded" src="img/screenshots/home3.jpg"/>
             </div>
+			<script language="javascript">
+				var rand1 = Math.floor(Math.random() * 8);
+				document.getElementById("scrn0").src = "img/screenshots/home" + rand1 + ".jpg";
+				var rand2 = Math.floor(Math.random() * 7);
+				if (rand2 == rand1) rand2++;
+				document.getElementById("scrn1").src = "img/screenshots/home" + rand2 + ".jpg";
+				var rand3 = 1 + Math.floor(Math.random() * 6);
+				if (rand3 == rand2) rand3++;
+				else if (rand3 == rand1) {
+					rand3 += 2;
+					if (rand3 == rand2) rand3 -= 3;
+				}
+				document.getElementById("scrn2").src = "img/screenshots/home" + rand3 + ".jpg";
+			</script>
             <h2 style="margin-top: 32px; margin-bottom: 0px;">Minimal, feature-rich, different.</h2>
             
 			
