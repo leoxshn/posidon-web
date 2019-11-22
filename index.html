@@ -33,7 +33,7 @@
 				if (rand3 == rand2) rand3++;
 				else if (rand3 == rand1) {
 					rand3 += 2;
-					if (rand3 == rand2) rand3 -= 3;
+					if (rand3 == rand2 || rand3 > 7) rand3 -= 3;
 				}
 				document.getElementById("scrn2").src = "img/screenshots/home" + rand3 + ".jpg";
 			</script>
