@@ -119,6 +119,7 @@ a.topRight {
 
 .carousel {
 	margin-top: 48px;
+	min-height: 550px;
 }
 
 @media only screen and (max-width: 570px) {
