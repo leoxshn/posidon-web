@@ -1,6 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500&display=swap');
 @font-face {
     font-family: "posidonsans";
     src: url("posidonsans.ttf");
+}
+
+@keyframes alpha-in-faded {
+  from {opacity: 0;}
+  to {opacity: 60%;}
+}
+@keyframes alpha-in {
+  from {opacity: 0;}
+  to {opacity: 100%;}
 }
 
 body {
@@ -9,7 +19,7 @@ body {
 }
 
 * {
-    font-weight:normal;
+    font-weight: normal;
     font-family: posidonsans;
 }
 
@@ -31,6 +41,8 @@ img {
     width: 256px;
     margin: 12px;
     vertical-align: middle;
+	animation-name: alpha-in;
+	animation-duration: 0.4s;
 }
 
 .screenshot.faded {
@@ -41,6 +53,8 @@ img {
     width: 192px;
     opacity: 60%;
     vertical-align: middle;
+	animation-name: alpha-in-faded;
+	animation-duration: 1s;
 }
 
  ::-moz-selection {
@@ -56,6 +70,8 @@ img {
 p {
     text-align: left;
     font-size: 16px;
+	animation-name: alpha-in;
+	animation-duration: 0.8s;
 }
 
 h3 {
@@ -63,18 +79,20 @@ h3 {
     color: #ffffff;
     font-weight: bold;
     font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+	animation-name: alpha-in;
+	animation-duration: 0.6s;
 }
 
 h2 {
     color: #ffffff;
-    font-weight: bold;
     font-size: 24px;
     display: inline-block;
 }
 
 h1 {
     color: #ffffff;
-    font-size: 64px;
+    font-size: 72px;
 	margin-bottom: 16px;
 }
 
@@ -90,6 +108,17 @@ a.topRight {
     padding-left: 18px;
     text-decoration: none;
     margin: 12px;
+	animation-name: alpha-in;
+	animation-duration: 0.3s;
+}
+
+.getitongoogleplay {
+	animation-name: alpha-in;
+	animation-duration: 1.5s;
+}
+
+.carousel {
+	margin-top: 48px;
 }
 
 @media only screen and (max-width: 570px) {
