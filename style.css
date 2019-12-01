@@ -46,34 +46,34 @@ img {
 }
 
 .screenshot.faded {
-    display: inline-block;
-    background-color: #111213;
-    border-radius: 20px;
-    max-width: 40%;
-    width: 192px;
-    opacity: 60%;
-    vertical-align: middle;
-	animation-name: alpha-in-faded;
-	animation-duration: 1s;
+  display: inline-block;
+  background-color: #111213;
+  border-radius: 20px;
+  max-width: 40%;
+  width: 192px;
+  opacity: 60%;
+  vertical-align: middle;
+  animation-name: alpha-in-faded;
+  animation-duration: 1s;
 }
 
 ::-moz-selection {
-	color: #b9f4ff;
-	background-color: #003943;
-	border-radius: 10px;
+  color: #b0ffff;
+  background-color: #003940;
+  border-radius: 10px;
 }
 
 ::selection {
-    color: #b9f4ff;
-    background-color: #003943;
-	border-radius: 10px;
+  color: #b0ffff;
+  background-color: #003940;
+  border-radius: 10px;
 }
 
 p {
-    text-align: left;
-    font-size: 16px;
-	animation-name: alpha-in;
-	animation-duration: 0.8s;
+  text-align: left;
+  font-size: 16px;
+  animation-name: alpha-in;
+  animation-duration: 0.8s;
 }
 
 h3 {

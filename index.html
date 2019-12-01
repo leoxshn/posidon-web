@@ -24,16 +24,17 @@
 				<img id="scrn2" class="screenshot faded"/>
 			</div>
 			<script language="javascript">
-				var rand1 = Math.floor(Math.random() * 8);
+				var screenshots = 13
+				var rand1 = Math.floor(Math.random() * screenshots);
 				document.getElementById("scrn0").src = "img/screenshots/home" + rand1 + ".jpg";
-				var rand2 = Math.floor(Math.random() * 7);
+				var rand2 = Math.floor(Math.random() * (screenshots - 1));
 				if (rand2 == rand1) rand2++;
 				document.getElementById("scrn1").src = "img/screenshots/home" + rand2 + ".jpg";
-				var rand3 = 1 + Math.floor(Math.random() * 6);
+				var rand3 = 1 + Math.floor(Math.random() * (screenshots - 3));
 				if (rand3 == rand2) rand3++;
 				else if (rand3 == rand1) {
 					rand3 += 2;
-					if (rand3 == rand2 || rand3 > 7) rand3 -= 3;
+					if (rand3 == rand2 || rand3 > screenshots - 1) rand3 -= 3;
 				}
 				document.getElementById("scrn2").src = "img/screenshots/home" + rand3 + ".jpg";
 			</script>
