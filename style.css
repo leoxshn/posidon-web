@@ -164,3 +164,8 @@ a.topRight:hover {
         display: none;
     }
 }
+
+.copyright {
+	color: #252627;
+	font-size: 14px;
+}
