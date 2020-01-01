@@ -1,21 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
 @font-face {
     font-family: "posidonsans";
-    src: url("posidonsans.ttf");
+    src: url("PosidonSans.ttf");
 }
 
 @keyframes alpha-in-faded {
-  from {opacity: 0;}
-  to {opacity: 60%;}
+    from {opacity: 0;}
+    to {opacity: 60%;}
 }
 @keyframes alpha-in {
-  from {opacity: 0;}
-  to {opacity: 100%;}
+    from {opacity: 0;}
+    to {opacity: 100%;}
 }
 
 body {
     background-color: #000000;
-    color: #dddedf;
+    color: #c0d0de;
 }
 
 * {
@@ -46,44 +46,43 @@ img {
 }
 
 .screenshot.faded {
-  display: inline-block;
-  background-color: #111213;
-  border-radius: 20px;
-  max-width: 40%;
-  width: 192px;
-  opacity: 60%;
-  vertical-align: middle;
-  animation-name: alpha-in-faded;
-  animation-duration: 1s;
+    display: inline-block;
+    background-color: #111213;
+    border-radius: 20px;
+    max-width: 40%;
+    width: 192px;
+    opacity: 60%;
+    vertical-align: middle;
+    animation-name: alpha-in-faded;
+    animation-duration: 1s;
 }
 
 ::-moz-selection {
-  color: #b0ffff;
-  background-color: #003940;
-  border-radius: 10px;
+    color: #b0ffff;
+    background-color: #003940;
+    border-radius: 10px;
 }
 
 ::selection {
-  color: #b0ffff;
-  background-color: #003940;
-  border-radius: 10px;
+    color: #b0ffff;
+    background-color: #003940;
+    border-radius: 10px;
 }
 
 p {
-  text-align: left;
-  font-size: 16px;
-  animation-name: alpha-in;
-  animation-duration: 0.8s;
+    text-align: left;
+    font-size: 16px;
+    animation-name: alpha-in;
+    animation-duration: 0.8s;
 }
 
 h3 {
 	text-align: left;
 	color: #ffffff;
-	font-weight: bold;
 	font-size: 20px;
-	font-family: 'Ubuntu', sans-serif;
 	animation-name: alpha-in;
 	animation-duration: 0.6s;
+	font-family: 'Lexend Deca', sans-serif;
 }
 
 h2 {
@@ -98,6 +97,7 @@ h2 {
 	display: inline-block;
 	animation-name: alpha-in;
 	animation-duration: 0.4s;
+	font-family: 'Lexend Deca', sans-serif;
 }
 
 h1 {
@@ -136,7 +136,7 @@ a.topRight:hover {
 	min-height: 550px;
 }
 
-@media only screen and (max-width: 570px) {
+@media only screen and (max-width: 700px) {
 
     .screenshot {
         background-color: #252627;
