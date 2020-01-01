@@ -34,6 +34,8 @@ img {
     border-radius: 5px;
 }
 
+a { text-decoration: none; outline: 0; }
+
 .screenshot {
     background-color: #252627;
     border-radius: 25px;
