@@ -12,32 +12,35 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	</head>
 	<body>
-		<h2 style="margin-top: 12px; margin-bottom: 12px;"><img src="img/ic_material.png" height=48px draggable="false" style="vertical-align: middle; margin-right: 10px; margin-left: 10px"/>posidon</h2>
+		<h2 style="margin-top: 12px; margin-bottom: 6px;"><img src="img/rsk.png" height=42px draggable="false" style="vertical-align: middle; margin-right: 10px; margin-left: 10px"/>posidon</h2>
 		<a class="topRight" href="https://t.me/posidonlauncher">Telegram</a>
 		<a class="topRight" href="https://discord.gg/jqkRwct">Discord</a>
 		<a class="topRight" href="https://play.google.com/store/apps/details?id=posidon.launcher">Google Play</a>
 		<a class="topRight" href="https://twitter.com/lposidon">Twitter</a>
 		<center>
-			<h1>posidon</h1>
+			<h1>posidon launcher</h1>
 			<div class="carousel">
-				<img id="scrn0" draggable="false" class="screenshot faded"/>
-				<img id="scrn1" draggable="false" class="screenshot"/>
-				<img id="scrn2" draggable="false" class="screenshot faded"/>
+				<div id="scrn0" draggable="false" class="screenshot faded"></div>
+				<div id="scrn1" draggable="false" class="screenshot"></div>
+				<div id="scrn2" draggable="false" class="screenshot faded"></div>
 			</div>
 			<script language="javascript">
 				var screenshots = 13
-				var rand1 = Math.floor(Math.random() * screenshots);
-				document.getElementById("scrn0").src = "img/screenshots/home" + rand1 + ".jpg";
-				var rand2 = Math.floor(Math.random() * (screenshots - 1));
-				if (rand2 == rand1) rand2++;
-				document.getElementById("scrn1").src = "img/screenshots/home" + rand2 + ".jpg";
-				var rand3 = 1 + Math.floor(Math.random() * (screenshots - 3));
-				if (rand3 == rand2) rand3++;
-				else if (rand3 == rand1) {
-					rand3 += 2;
-					if (rand3 == rand2 || rand3 > screenshots - 1) rand3 -= 3;
+				var r1 = Math.floor(Math.random() * screenshots);
+				//document.getElementById("scrn0").src = "img/screenshots/home" + r1 + ".jpg";
+				document.getElementById("scrn0").style.backgroundImage="url(img/screenshots/home" + r1 + ".jpg)";
+				var r2 = Math.floor(Math.random() * (screenshots - 1));
+				if (r2 == r1) r2++;
+				//document.getElementById("scrn1").src = "img/screenshots/home" + r2 + ".jpg";
+				document.getElementById("scrn1").style.backgroundImage="url(img/screenshots/home" + r2 + ".jpg)";
+				var r3 = 1 + Math.floor(Math.random() * (screenshots - 3));
+				if (r3 == r2) r3++;
+				else if (r3 == r1) {
+					r3 += 2;
+					if (r3 == r2 || r3 > screenshots - 1) r3 -= 3;
 				}
-				document.getElementById("scrn2").src = "img/screenshots/home" + rand3 + ".jpg";
+				//document.getElementById("scrn2").src = "img/screenshots/home" + r3 + ".jpg";
+				document.getElementById("scrn2").style.backgroundImage="url(img/screenshots/home" + r3 + ".jpg)";
 			</script>
 			<h2 class="slogan" style="margin-top: 32px; margin-bottom: 0px;">Minimal, feature-rich, different.</h2>
 			<div style="width: 256px; margin-top: 32px; margin-bottom: 24px">
