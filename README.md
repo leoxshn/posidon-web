@@ -1,1 +1,3 @@
-## The [website](https://leoxshn.github.io/posidon-web) for [posidon launcher](https://play.google.com/store/apps/details?id=posidon.launcher)
+## The [website for posidon software](https://leoxshn.github.io/posidon-web)
+ - [posidon launcher](https://play.google.com/store/apps/details?id=posidon.launcher)
+ - Texter

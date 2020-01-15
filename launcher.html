@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>posidon launcher</title>
+		<meta name="description" content="posidon launcher">
+		<meta name="author" content="Leo Shneyderis">
+		<meta name="keywords" content="posidon, launcher, feed, one, page, scroll, home, homescreen, android, customization, personalization, custom">
+		<link rel="stylesheet" href="style.css">
+		<link rel="icon" href="img/favicon.png">
+		<meta name="theme-color" content="#000000">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	</head>
+	<body>
+		<a href="index.html"><h2 style="margin-top: 12px; margin-bottom: 6px;">
+			<img src="img/rsk.png" height=42px draggable="false" style="vertical-align: middle; margin-right: 10px; margin-left: 10px"/>
+			posidon
+		</h2></a>
+		<a class="topRight" href="launcher.html">posidon launcher</a>
+		<a class="topRight" href="texter.html">Texter</a>
+		<a class="topRight" href="https://github.com/leoxshn">Github</a>
+		<center>
+			<h1>posidon launcher</h1>
+			<div class="carousel">
+				<div id="scrn0" draggable="false" class="screenshot faded"></div>
+				<div id="scrn1" draggable="false" class="screenshot"></div>
+				<div id="scrn2" draggable="false" class="screenshot faded"></div>
+			</div>
+			<script language="javascript">
+				var screenshots = 13
+				var r1 = Math.floor(Math.random() * screenshots);
+				//document.getElementById("scrn0").src = "launcher/screenshots/home" + r1 + ".jpg";
+				document.getElementById("scrn0").style.backgroundImage="url(launcher/screenshots/home" + r1 + ".jpg)";
+				var r2 = Math.floor(Math.random() * (screenshots - 1));
+				if (r2 == r1) r2++;
+				//document.getElementById("scrn1").src = "launcher/screenshots/home" + r2 + ".jpg";
+				document.getElementById("scrn1").style.backgroundImage="url(launcher/screenshots/home" + r2 + ".jpg)";
+				var r3 = 1 + Math.floor(Math.random() * (screenshots - 3));
+				if (r3 == r2) r3++;
+				else if (r3 == r1) {
+					r3 += 2;
+					if (r3 == r2 || r3 > screenshots - 1) r3 -= 3;
+				}
+				//document.getElementById("scrn2").src = "launcher/screenshots/home" + r3 + ".jpg";
+				document.getElementById("scrn2").style.backgroundImage="url(launcher/screenshots/home" + r3 + ".jpg)";
+			</script>
+			<div style="width: 256px; margin-top: 32px; margin-bottom: 24px">
+				<p>Posidon launcher is a minimal, one page homescreen with a vertical scrolling feed.</p><br>
+				<h3 style="margin-top: 12px; margin-bottom: 10px">Coolest features</h3>
+				<p>
+					- News & Notifications feed<br>
+					- Wallpaper gallery<br>
+					- Blur behind app drawer<br>
+					- 5 Font options<br>
+					- Experimental desktop mode for Android 10<br>
+					- Vector and animated iconpack support<br>
+				</p>
+			</div>
+			<div style="margin-top: 48px; margin-bottom: 36px">
+				<a class="otherLinkBtn" href="https://t.me/posidonlauncher">Telegram</a>
+				<a class="otherLinkBtn" href="https://twitter.com/lposidon">Twitter</a>
+				<a class="otherLinkBtn" href="https://discord.gg/jqkRwct">Discord</a>
+			</div>
+			<a class="getitongoogleplay" draggable="false" href='https://play.google.com/store/apps/details?id=posidon.launcher'>
+				<img alt='Get it on Google Play' draggable="false" src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' height=96px/>
+			</a>
+		</center>
+		<p class="copyright">Copyright &copy; Leo Shneyderis <script type="text/javascript">document.write(new Date().getFullYear())</script></p>
+	</body>
+</html>
