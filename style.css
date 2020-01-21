@@ -250,7 +250,43 @@ h1 {
 	min-height: 550px;
 }
 
-@media only screen and (max-width: 700px) {
+.copyright {
+	color: #21272d;
+	font-size: 14px;
+	text-align: center;
+}
+
+
+@keyframes c {
+    from { padding: 0px; }
+    to { padding: 20px; }
+}
+@keyframes ci {
+    from { padding: 20px; }
+    to { padding: 0px; }
+}
+
+.productCard {
+	background-color: #111213;
+	margin-right: 32px;
+	margin-left: 32px;
+	margin-top: 32px;
+	margin-bottom: 32px;
+	border-radius: 18px;
+	text-align: left;
+	width: 100% - 32px;
+	max-width: 630px;
+	animation: ci;
+	animation-duration: 0.5s;
+}.productCard * {
+	vertical-align: middle;
+}.productCard:hover {
+	animation: c;
+	animation-duration: 0.5s;
+	padding: 20px;
+}
+
+@media only screen and (max-width: 550px) {
     .screenshot {
         background-color: #252627;
         border-radius: 20px;
@@ -264,6 +300,13 @@ h1 {
         display: block;
         padding-right: 22px;
         padding-left: 22px;
+    }
+    .topRight:hover {}
+    .topRight:active {
+        animation: b;
+        animation-duration: 0.2s;
+        padding-left: 26px;
+        padding-right: 26px;
     }
     @keyframes b {
         from {
@@ -283,16 +326,47 @@ h1 {
             padding-right: 26px;
         }
     }
-}
-
-@media only screen and (max-width: 500px) {
-    .topRight:hover {}
-    .topRight:active {
-        animation: b;
-        animation-duration: 0.2s;
-        padding-left: 26px;
-        padding-right: 26px;
-    }
+	.productCard {
+		margin-right: 0px;
+		margin-left: 0px;
+		border-radius: 25px;
+		width: 100%;
+		text-align: center;
+	}
+	.productCard img {
+		display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+		margin-bottom: -28px;
+	}
+	
+	@keyframes c {
+	    from {
+			padding-top: 0px;
+			padding-bottom: 0px;
+		}
+	    to {
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+	}
+	
+	@keyframes ci {
+	    to {
+			padding-top: 0px;
+			padding-bottom: 0px;
+		}
+	    from {
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+	}
+	
+	.productCard:hover {
+		padding: 0;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
 }
 
 
@@ -300,10 +374,4 @@ h1 {
     .screenshot.faded {
         display: none;
     }
-}
-
-.copyright {
-	color: #21272d;
-	font-size: 14px;
-	text-align: center;
 }
