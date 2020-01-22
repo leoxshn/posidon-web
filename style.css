@@ -259,10 +259,10 @@ h1 {
 
 @keyframes c {
     from { padding: 0px; }
-    to { padding: 20px; }
+    to { padding: 18px; }
 }
 @keyframes ci {
-    from { padding: 20px; }
+    from { padding: 18px; }
     to { padding: 0px; }
 }
 
@@ -277,13 +277,13 @@ h1 {
 	width: 100% - 32px;
 	max-width: 630px;
 	animation: ci;
-	animation-duration: 0.5s;
+	animation-duration: 0.1s;
 }.productCard * {
 	vertical-align: middle;
 }.productCard:hover {
 	animation: c;
-	animation-duration: 0.5s;
-	padding: 20px;
+	animation-duration: 0.1s;
+	padding: 18px;
 }
 
 @media only screen and (max-width: 550px) {
@@ -357,15 +357,15 @@ h1 {
 			padding-bottom: 0px;
 		}
 	    from {
-			padding-top: 20px;
-			padding-bottom: 20px;
+			padding-top: 18px;
+			padding-bottom: 18px;
 		}
 	}
 	
 	.productCard:hover {
 		padding: 0;
-		padding-top: 20px;
-		padding-bottom: 20px;
+		padding-top: 18px;
+		padding-bottom: 18px;
 	}
 }
 
