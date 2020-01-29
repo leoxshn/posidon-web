@@ -133,37 +133,38 @@ h1 {
         padding-right: 26px;
     }
 }
+
 .topRight {
-    animation: bi;
-    animation-duration: 0.2s;
+	animation: bi;
+	animation-duration: 0.08s;
     background-color: #111213;
     color: #eeeeee;
     border-top: solid #252627 1px;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-top: 12px;
+    margin-top: 14px;
     margin-bottom: 20px;
-    margin-left: 6px;
-    margin-right: 6px;
-    border-radius: 36px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 56px;
     display: inline-block;
     float: right;
     text-shadow: rgba(0, 0, 10, 0.3) 0 1px 0.5px;
 }.topRight:hover {
-    animation: b;
-    animation-duration: 0.2s;
+	animation: b;
+	animation-duration: 0.08s;
     border-top: solid #232834 1px;
+    background-color: #11151f;
     padding-left: 26px;
     padding-right: 26px;
-    background-color: #11151f;
-    color: #d0e0ff;
+    color: #d0ffff;
 }
 
 .downloadBtn {
     animation: bi;
-    animation-duration: 0.2s;
+    animation-duration: 0.08s;
     background-image: linear-gradient(to bottom, #0088ff, #1166ff);
     color: #ffffff;
     border-top: solid #11aaff 1px;
@@ -181,7 +182,7 @@ h1 {
 	vertical-align: middle;
 }.downloadBtn:hover {
     animation: b;
-    animation-duration: 0.2s;
+    animation-duration: 0.08s;
     padding-left: 26px;
     padding-right: 26px;
     background-image: linear-gradient(to bottom, #11aaff, #1188ff);
@@ -189,7 +190,7 @@ h1 {
     border-bottom: solid #1133aa 1px;
 }.downloadBtn:active {
     animation: b;
-    animation-duration: 0.2s;
+    animation-duration: 0.08s;
     padding-left: 26px;
     padding-right: 26px;
     background-image: linear-gradient(to bottom, #11aaff, #1188ff);
@@ -204,7 +205,7 @@ h1 {
 
 .otherLinkBtn {
     animation: bi;
-    animation-duration: 0.2s;
+    animation-duration: 0.08s;
     background-image: linear-gradient(to bottom, #8800ff, #6611ff);
     color: #ffffff;
     border-top: solid #aa11ff 1px;
@@ -221,7 +222,7 @@ h1 {
     text-shadow: rgba(0, 0, 10, 0.3) 0 1px 0.5px;
 }.otherLinkBtn:hover {
     animation: b;
-    animation-duration: 0.2s;
+    animation-duration: 0.08s;
     padding-left: 26px;
     padding-right: 26px;
     background-image: linear-gradient(to bottom, #aa11ff, #8811ff);
@@ -229,7 +230,7 @@ h1 {
     border-bottom: solid #3311aa 1px;
 }.otherLinkBtn:active {
     animation: b;
-    animation-duration: 0.2s;
+    animation-duration: 0.08s;
     padding-left: 26px;
     padding-right: 26px;
     background-image: linear-gradient(to bottom, #aa11ff, #8811ff);
@@ -255,12 +256,12 @@ h1 {
 
 
 @keyframes c {
-    from { padding: 0px; }
-    to { padding: 18px; }
+    0% { padding: 0px; }
+    100% { padding: 15px; }
 }
 @keyframes ci {
-    from { padding: 18px; }
-    to { padding: 0px; }
+    0% { padding: 15px; }
+    100% { padding: 0px; }
 }
 
 .productCard {
@@ -275,12 +276,16 @@ h1 {
 	max-width: 630px;
 	animation: ci;
 	animation-duration: 0.1s;
+	border-top: solid rgba(255, 255, 255, 0.2) 1px;
+	border-bottom: solid rgba(0, 0, 0, 0.5) 1px;
 }.productCard * {
 	vertical-align: middle;
 }.productCard:hover {
 	animation: c;
 	animation-duration: 0.1s;
-	padding: 18px;
+	padding: 15px;
+}.productCard h2 {
+	text-shadow: rgba(0, 0, 10, 0.3) 0 1px 0.5px;
 }
 
 .desktopWindow {
@@ -315,6 +320,8 @@ h1 {
         display: block;
         padding-right: 22px;
         padding-left: 22px;
+		padding-top: 15px;
+		padding-bottom: 15px;
     }
     .topRight:hover {}
     .topRight:active {
