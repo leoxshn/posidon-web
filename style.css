@@ -178,6 +178,7 @@ h1 {
     margin-right: 6px;
     border-radius: 36px;
     text-shadow: rgba(0, 0, 10, 0.3) 0 1px 0.5px;
+	vertical-align: middle;
 }.downloadBtn:hover {
     animation: b;
     animation-duration: 0.2s;
@@ -194,6 +195,11 @@ h1 {
     background-image: linear-gradient(to bottom, #11aaff, #1188ff);
     border-top: solid #22ddff 1px;
     border-bottom: solid #1133aa 1px;
+}.downloadBtn * {
+	vertical-align: middle;
+	display: inline;
+}.downloadBtn img {
+	filter: drop-shadow(0 1px 0.5px rgba(0, 0, 10, 0.5));
 }
 
 .otherLinkBtn {
