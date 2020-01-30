@@ -139,6 +139,7 @@ h1 {
 	animation-duration: 0.08s;
     background-color: #111213;
     color: #eeeeee;
+    font-size: 16px;
     border-top: solid #252627 1px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -180,15 +181,7 @@ h1 {
     border-radius: 36px;
     text-shadow: rgba(0, 0, 10, 0.3) 0 1px 0.5px;
 	vertical-align: middle;
-}.downloadBtn:hover {
-    animation: b;
-    animation-duration: 0.08s;
-    padding-left: 26px;
-    padding-right: 26px;
-    background-image: linear-gradient(to bottom, #11aaff, #1188ff);
-    border-top: solid #22ddff 1px;
-    border-bottom: solid #1133aa 1px;
-}.downloadBtn:active {
+}.downloadBtn:hover, .downloadBtn:active {
     animation: b;
     animation-duration: 0.08s;
     padding-left: 26px;
@@ -220,15 +213,7 @@ h1 {
     margin-right: 6px;
     border-radius: 36px;
     text-shadow: rgba(0, 0, 10, 0.3) 0 1px 0.5px;
-}.otherLinkBtn:hover {
-    animation: b;
-    animation-duration: 0.08s;
-    padding-left: 26px;
-    padding-right: 26px;
-    background-image: linear-gradient(to bottom, #aa11ff, #8811ff);
-    border-top: solid #dd22ff 1px;
-    border-bottom: solid #3311aa 1px;
-}.otherLinkBtn:active {
+}.otherLinkBtn:hover, .otherLinkBtn:active {
     animation: b;
     animation-duration: 0.08s;
     padding-left: 26px;
@@ -306,7 +291,24 @@ h1 {
 	vertical-align: middle;
 }
 
-@media only screen and (max-width: 550px) {
+
+@media only screen and (max-width: 700px) {
+	.topRight {
+		animation: none;
+	    padding-left: 16px;
+	    padding-right: 16px;
+		margin-left: 4px;
+		margin-right: 4px;
+		border-radius: 56px;
+		font-size: 14px;
+	}.topRight:hover {
+		animation: none;
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+}
+
+@media only screen and (max-width: 580px) {
     .screenshot {
         background-color: #252627;
         border-radius: 20px;
@@ -314,17 +316,27 @@ h1 {
         width: 256px;
         margin: 0px;
     }
-    h1 { display: none; }
+    h1 {
+    color: #ffffff;
+    font-size: 48px;
+	margin-top: 72px;
+	margin-bottom: 32px;
+	font-weight: normal;
+	}
     .topRight {
+		animation: bi;
+		animation-duration: 0.08s;
         float: none;
         display: block;
         padding-right: 22px;
         padding-left: 22px;
 		padding-top: 15px;
 		padding-bottom: 15px;
+		font-size: 16px;
     }
-    .topRight:hover {}
-    .topRight:active {
+    .topRight:active, .topRight:hover {
+		animation: b;
+		animation-duration: 0.08s;
         animation: b;
         animation-duration: 0.2s;
         padding-left: 26px;
