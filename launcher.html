@@ -3,6 +3,19 @@
 	<head>
 		<meta charset="utf-8">
 		<title>posidon launcher</title>
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "MobileApplication",
+			"name": "posidon launcher",
+			"operatingSystem": "Android",
+			"applicationCategory": "DesktopEnhancementApplication",
+			"offers": {
+				"@type": "Offer",
+				"price": "0"
+			}
+		}
+		</script>
 		<meta name="description" content="posidon launcher">
 		<meta name="author" content="Leo Shneyderis">
 		<meta name="keywords" content="posidon, launcher, feed, one, page, scroll, home, homescreen, android, customization, personalization, custom">
@@ -30,11 +43,9 @@
 			<script language="javascript">
 				var screenshots = 13
 				var r1 = Math.floor(Math.random() * screenshots);
-				//document.getElementById("scrn0").src = "launcher/screenshots/home" + r1 + ".webp";
 				document.getElementById("scrn0").style.backgroundImage="url(launcher/screenshots/home" + r1 + ".webp)";
 				var r2 = Math.floor(Math.random() * (screenshots - 1));
 				if (r2 == r1) r2++;
-				//document.getElementById("scrn1").src = "launcher/screenshots/home" + r2 + ".webp";
 				document.getElementById("scrn1").style.backgroundImage="url(launcher/screenshots/home" + r2 + ".webp)";
 				var r3 = 1 + Math.floor(Math.random() * (screenshots - 3));
 				if (r3 == r2) r3++;
@@ -42,7 +53,6 @@
 					r3 += 2;
 					if (r3 == r2 || r3 > screenshots - 1) r3 -= 3;
 				}
-				//document.getElementById("scrn2").src = "launcher/screenshots/home" + r3 + ".webp";
 				document.getElementById("scrn2").style.backgroundImage="url(launcher/screenshots/home" + r3 + ".webp)";
 			</script>
 			<div style="width: 256px; margin-top: 32px; margin-bottom: 24px">
