@@ -270,8 +270,13 @@ h1 {
 	animation-duration: 0.1s;
 	padding: 15px;
 }.productCard h2 {
+	margin: 4px;
 	text-shadow: rgba(0, 0, 10, 0.3) 0 1px 0.5px;
-}
+}.productCard p {
+	color: rgba(220, 255, 255, 0.7);
+	margin: 4px;
+	text-shadow: rgba(0, 0, 10, 0.3) 0 1px 0.3px;
+}.productCard div { display: inline-block; }
 
 .desktopWindow {
 	background-color: #252932;
@@ -317,11 +322,11 @@ h1 {
         margin: 0px;
     }
     h1 {
-    color: #ffffff;
-    font-size: 48px;
-	margin-top: 72px;
-	margin-bottom: 32px;
-	font-weight: normal;
+		color: #ffffff;
+		font-size: 48px;
+		margin-top: 72px;
+		margin-bottom: 32px;
+		font-weight: normal;
 	}
     .topRight {
 		animation: bi;
@@ -373,6 +378,7 @@ h1 {
     	margin-right: auto;
 		margin-bottom: -28px;
 	}
+	.productCard div { margin: 20px; }
 	
 	@keyframes c {
 	    from {
