@@ -296,6 +296,16 @@ h1 {
 	vertical-align: middle;
 }
 
+.absoluteCenter {
+	text-align: center;
+	vertical-align: middle;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
 
 @media only screen and (max-width: 700px) {
 	.topRight {
