@@ -250,7 +250,8 @@ h1 {
 }
 
 .productCard {
-	background-color: #111213;
+	background: rgba(13, 18, 22, 0.67);
+	border: solid 1.5px #1d222a;
 	margin-right: 32px;
 	margin-left: 32px;
 	margin-top: 32px;
@@ -261,8 +262,6 @@ h1 {
 	max-width: 630px;
 	animation: ci;
 	animation-duration: 0.1s;
-	border-top: solid rgba(255, 255, 255, 0.2) 1px;
-	border-bottom: solid rgba(0, 0, 0, 0.5) 1px;
 }.productCard * {
 	vertical-align: middle;
 }.productCard:hover {

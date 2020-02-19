@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="108"
+   height="108"
+   viewBox="0 0 28.574999 28.575001"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="posidon_notes_logo.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.9195959"
+     inkscape:cx="40.644927"
+     inkscape:cy="57.219649"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g835"
+     showgrid="true"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid815"
+       empspacing="4" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-268.42498)">
+    <g
+       id="g823">
+      <g
+         id="g835"
+         transform="matrix(1.0833333,0,0,1.0833333,7.4083333,-14.960415)">
+        <path
+           sodipodi:nodetypes="ccccsc"
+           inkscape:connector-curvature="0"
+           id="path825"
+           d="m 0,281.12498 c 0,0 0,-2.11666 1.0583333,-3.175 1.0583331,-1.05833 9.5250007,-9.525 9.5250007,-9.525 L 12.7,270.54165 c 0,0 -8.4666666,8.46667 -9.5249996,9.525 C 2.1166664,281.12498 0,281.12498 0,281.12498 Z"
+           style="opacity:1;fill:#17c25b;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <g
+           style="fill:#1d222a;fill-opacity:1"
+           id="g829">
+          <path
+             inkscape:connector-curvature="0"
+             id="path817"
+             d="m 0,281.12498 c 0,0 0,-2.11666 1.0583333,-3.175 1.0583331,-1.05833 6.3500001,-6.35 6.3500001,-6.35 l 2.116666,2.11667 c 0,0 -5.291666,5.29167 -6.349999,6.35 C 2.1166664,281.12498 0,281.12498 0,281.12498 Z"
+             style="fill:#1d222a;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path819"
+             d="m 8.4666664,270.54165 2.1166666,2.11667 2.116666,-2.11667 -2.116666,-2.11667 z"
+             style="fill:#1d222a;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
