@@ -137,10 +137,10 @@ h1 {
 .topRight {
 	animation: bi;
 	animation-duration: 0.08s;
-    background-color: #111213;
-    color: #eeeeee;
+    color: #d2d8ed;
     font-size: 16px;
-    border-top: solid #252627 1px;
+	background: rgba(13, 18, 22, 0.67);
+	border: solid 1.5px #1d222a;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
@@ -152,16 +152,45 @@ h1 {
     border-radius: 56px;
     display: inline-block;
     float: right;
-    text-shadow: rgba(0, 0, 10, 0.3) 0 1px 0.5px;
 }.topRight:hover {
 	animation: b;
 	animation-duration: 0.08s;
-    border-top: solid #232834 1px;
-    background-color: #11151f;
     padding-left: 26px;
     padding-right: 26px;
-    color: #d0ffff;
 }
+
+.btn {
+	animation: bi;
+	animation-duration: 0.08s;
+    color: #d2d8ed;
+    font-size: 16px;
+	background: rgba(13, 18, 22, 0.67);
+	border: solid 1.5px #1d222a;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 14px;
+    margin-bottom: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 56px;
+	vertical-align: middle;
+}.btn:hover, .btn:active {
+	animation: b;
+	animation-duration: 0.08s;
+    padding-left: 26px;
+    padding-right: 26px;
+}.btn * {
+	vertical-align: middle;
+	display: inline;
+}.btn.highlighted {
+    color: #ccd0ff;
+	background: rgba(17, 85, 255, 0.141);
+	border: solid 1.5px #1155ff;
+}
+
+
 
 .downloadBtn {
     animation: bi;
@@ -196,32 +225,8 @@ h1 {
 	filter: drop-shadow(0 1px 0.5px rgba(0, 0, 10, 0.5));
 }
 
-.otherLinkBtn {
-    animation: bi;
-    animation-duration: 0.08s;
-    background-image: linear-gradient(to bottom, #8800ff, #6611ff);
-    color: #ffffff;
-    border-top: solid #aa11ff 1px;
-    border-bottom: solid #3300aa 1px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: 12px;
-    margin-bottom: 20px;
-    margin-left: 6px;
-    margin-right: 6px;
-    border-radius: 36px;
-    text-shadow: rgba(0, 0, 10, 0.3) 0 1px 0.5px;
-}.otherLinkBtn:hover, .otherLinkBtn:active {
-    animation: b;
-    animation-duration: 0.08s;
-    padding-left: 26px;
-    padding-right: 26px;
-    background-image: linear-gradient(to bottom, #aa11ff, #8811ff);
-    border-top: solid #dd22ff 1px;
-    border-bottom: solid #3311aa 1px;
-}
+
+
 
 .getitongoogleplay {
 	animation-name: alpha-in;
@@ -295,10 +300,11 @@ h1 {
 	vertical-align: middle;
 }
 
+
 .absoluteCenter {
 	text-align: center;
 	vertical-align: middle;
-	position: absolute;
+	position: fixed;
 	top: 50%;
 	left: 50%;
 	-ms-transform: translate(-50%, -50%);
