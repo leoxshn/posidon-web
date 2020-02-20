@@ -24,13 +24,6 @@ body {
 	max-width: 100%;
 }
 
-card1 {
-    background-color: #252627;
-    color: #ffffff;
-    border-radius: 20px;
-    padding: 12px;
-}
-
 a { text-decoration: none; outline: 0; }
 
 .screenshot {
@@ -99,7 +92,7 @@ h2 {
 }
 
 .slogan {
-	color: #ffffff;
+	color: #abbccd;
 	font-size: 24px;
 	display: inline-block;
 	animation-name: alpha-in;
@@ -137,7 +130,7 @@ h1 {
 .topRight {
 	animation: bi;
 	animation-duration: 0.08s;
-    color: #d2d8ed;
+    color: #5d626a;
     font-size: 16px;
 	background: rgba(13, 18, 22, 0.67);
 	border: solid 1.5px #1d222a;
@@ -185,48 +178,10 @@ h1 {
 	vertical-align: middle;
 	display: inline;
 }.btn.highlighted {
-    color: #ccd0ff;
+    color: #5388ff;
 	background: rgba(17, 85, 255, 0.141);
 	border: solid 1.5px #1155ff;
 }
-
-
-
-.downloadBtn {
-    animation: bi;
-    animation-duration: 0.08s;
-    background-image: linear-gradient(to bottom, #0088ff, #1166ff);
-    color: #ffffff;
-    border-top: solid #11aaff 1px;
-    border-bottom: solid #0033aa 1px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: 12px;
-    margin-bottom: 20px;
-    margin-left: 6px;
-    margin-right: 6px;
-    border-radius: 36px;
-    text-shadow: rgba(0, 0, 10, 0.3) 0 1px 0.5px;
-	vertical-align: middle;
-}.downloadBtn:hover, .downloadBtn:active {
-    animation: b;
-    animation-duration: 0.08s;
-    padding-left: 26px;
-    padding-right: 26px;
-    background-image: linear-gradient(to bottom, #11aaff, #1188ff);
-    border-top: solid #22ddff 1px;
-    border-bottom: solid #1133aa 1px;
-}.downloadBtn * {
-	vertical-align: middle;
-	display: inline;
-}.downloadBtn img {
-	filter: drop-shadow(0 1px 0.5px rgba(0, 0, 10, 0.5));
-}
-
-
-
 
 .getitongoogleplay {
 	animation-name: alpha-in;
@@ -277,10 +232,57 @@ h1 {
 	margin: 4px;
 	text-shadow: rgba(0, 0, 10, 0.3) 0 1px 0.5px;
 }.productCard p {
-	color: rgba(220, 255, 255, 0.7);
+	color: rgba(220, 255, 255, 0.5);
 	margin: 4px;
 	text-shadow: rgba(0, 0, 10, 0.3) 0 1px 0.3px;
 }.productCard div { display: inline-block; }
+
+.card {
+	background: rgba(13, 18, 22, 0.67);
+	border: solid 1.5px #1d222a;
+	margin-right: 32px;
+	margin-left: 32px;
+	margin-top: 32px;
+	margin-bottom: 32px;
+	padding: 15px;
+	border-radius: 18px;
+	text-align: left;
+	width: 100% - 32px;
+	max-width: 630px;
+	animation: ci;
+	animation-duration: 0.1s;
+}.card h2 {
+	margin: 4px;
+	text-shadow: rgba(0, 0, 10, 0.3) 0 1px 0.5px;
+}.card p {
+	color: rgba(220, 255, 255, 0.5);
+	margin: 4px;
+}
+
+.colorS {
+	color: #ffffff;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 18px;
+	padding-right: 18px;
+	border-radius: 8px;
+	display: inline-block;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+#colorCardToggle {
+	background: rgba(13, 184, 81, 0.3);
+	border: none;
+	border-radius: 18px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 12px;
+	padding-right: 12px;
+	color: #17c25b;
+	float: right;
+	font-size: 15px;
+}
 
 .desktopWindow {
 	background-color: #252932;

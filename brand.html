@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>posidon - brand resources</title>
+		<meta name="HandheldFriendly" content="true">
+		<meta name="MobileOptimized" content="width">
+		<meta http-equiv="cleartype" content="on">
+		<meta name="description" content="Software that looks good.">
+		<meta name="author" content="Leo Shneyderis">
+		<meta name="keywords" content="posidon, software, texter, launcher, android, linux, code, app, apps">
+		<link rel="stylesheet" href="style.css">
+		<link rel="icon" href="img/favicon.png">
+		<meta name="theme-color" content="#000000">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+        <meta property="og:url" content="https://posidon.io/brand">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@posidon">
+        <meta name="twitter:creator" content="@posidon">
+		<meta name="twitter:image:src" content="https://posidon.io/img/round.png">
+        <meta property="og:title" content="posidon">
+        <meta property="og:description" content="brand resources">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="http://posidon.io/img/round.png">
+	</head>
+	<body>
+		<a href="../"><h2 style="margin-top: 12px; margin-bottom: 6px;">
+			<img src="img/rsk.png" height=42px draggable="false" style="vertical-align: middle; margin-right: 10px; margin-left: 10px"/>
+			posidon
+		</h2></a>
+		<a class="topRight" href="launcher">posidon launcher</a>
+		<a class="topRight" href="texter">Texter</a>
+		<a class="topRight" href="https://github.com/leoxshn">Github</a>
+		<a class="topRight" href="https://twitter.com/posidon">Twitter</a>
+		<center>
+			<h1>brand resources</h1>
+			<div class="card" id="colorCard">
+				<h2 id="colorCardTitle">colors</h2>
+				<input id="colorCardToggle" type="button" value="#000000" onclick="doFunction();"/><br>
+				<div class="colorS" style="background: #1155ff">1155ff</div>
+				<div class="colorS" style="background: #17C25B">17C25B</div>
+				<div class="colorS" style="background: #0d1216">0D1216</div>
+				<div class="colorS" style="background: #1d222a">1D222A</div><br>
+				<div class="colorS" style="background: #e1e2e3; color: #000">E1E2E3</div>
+				<div class="colorS" style="background: #c0c1c2; color: #000">C0C1C2</div>
+				<div class="colorS" style="background: #a1a2a3">A1A2A3</div>
+				<div class="colorS" style="background: #878889">878889</div>
+				<div class="colorS" style="background: #545556">545556</div>
+				<div class="colorS" style="background: #252627">252627</div>
+				<div class="colorS" style="background: #1d1e1f">1D1E1F</div>
+				<div class="colorS" style="background: #111213">111213</div>
+				<div class="colorS" style="background: #0d0e0f">0D0E0F</div>
+				<div class="colorS" style="background: #000000">000000</div>
+			</div>
+			<script>
+				var mode = 0
+				document.getElementById("colorCardToggle").onclick = function () {
+					if (mode == 0) {
+						document.getElementById("colorCard").style.backgroundColor = "#000000";
+						document.getElementById("colorCard").style.borderColor = "#000000";
+						document.getElementById("colorCardTitle").style.color = null;
+						document.getElementById("colorCardToggle").value = "#ffffff";
+						mode = 1
+					} else if (mode == 1) {
+						document.getElementById("colorCard").style.backgroundColor = "#ffffff";
+						document.getElementById("colorCard").style.borderColor = "#c0c1c2";
+						document.getElementById("colorCardTitle").style.color = "#000000";
+						document.getElementById("colorCardToggle").value = "normal";
+						mode = 2
+					} else {
+						document.getElementById("colorCard").style.backgroundColor = null;
+						document.getElementById("colorCard").style.borderColor = null;
+						document.getElementById("colorCardTitle").style.color = null;
+						document.getElementById("colorCardToggle").value = "#000000";
+						mode = 0
+					}
+				};
+			</script>
+			<div class="card">
+				<h2>fonts</h2>
+				<a href="https://fonts.google.com/specimen/Lexend+Deca"><h3 style="font-family: Lexend Deca">Lexend Deca</h3></a>
+				<a href=""><h3 style="font-family: posidonsans">posidon sans</h3></a>
+			</div>
+		</center>
+		<p class="copyright">Copyright &copy; Leo Shneyderis <script type="text/javascript">document.write(new Date().getFullYear())</script></p>
+	</body>
+</html>
