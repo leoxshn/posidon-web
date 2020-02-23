@@ -150,6 +150,13 @@ h1 {
 	animation-duration: 0.08s;
     padding-left: 26px;
     padding-right: 26px;
+}.topRightIcon {
+    display: block;
+    float: right;
+    margin-top: 14px;
+    margin-bottom: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 .btn {
@@ -314,6 +321,12 @@ h1 {
 }
 
 
+@media only screen and (max-width: 750px) {
+    .screenshot.faded {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 700px) {
 	.topRight {
 		animation: none;
@@ -330,6 +343,7 @@ h1 {
 	}
 }
 
+.mobile { display: none; }
 @media only screen and (max-width: 580px) {
     .screenshot {
         background-color: #252627;
@@ -345,25 +359,10 @@ h1 {
 		margin-bottom: 32px;
 		font-weight: normal;
 	}
-    .topRight {
-		animation: bi;
-		animation-duration: 0.08s;
-        float: none;
-        display: block;
-        padding-right: 22px;
-        padding-left: 22px;
-		padding-top: 15px;
-		padding-bottom: 15px;
-		font-size: 16px;
-    }
-    .topRight:active, .topRight:hover {
-		animation: b;
-		animation-duration: 0.08s;
-        animation: b;
-        animation-duration: 0.2s;
-        padding-left: 26px;
-        padding-right: 26px;
-    }
+	
+    .topRight { display: none; }
+    .topRightIcon.mobile { display: block;	}
+	
     @keyframes b {
         from {
             padding-left: 22px;
@@ -383,6 +382,7 @@ h1 {
         }
     }
 	.productCard {
+		animation: none;
 		margin-right: 0px;
 		margin-left: 0px;
 		border-radius: 25px;
@@ -397,32 +397,9 @@ h1 {
 	}
 	.productCard div { margin: 20px; }
 	
-	@keyframes c {
-	    from {
-			padding-top: 0px;
-			padding-bottom: 0px;
-		}
-	    to {
-			padding-top: 20px;
-			padding-bottom: 20px;
-		}
-	}
-	
-	@keyframes ci {
-	    to {
-			padding-top: 0px;
-			padding-bottom: 0px;
-		}
-	    from {
-			padding-top: 18px;
-			padding-bottom: 18px;
-		}
-	}
-	
 	.productCard:hover {
+		animation: none;
 		padding: 0;
-		padding-top: 18px;
-		padding-bottom: 18px;
 	}
 	
 	.desktopWindow img {
@@ -430,11 +407,4 @@ h1 {
 	}.desktopWindow p {
 		display: none;
 	}
-}
-
-
-@media only screen and (max-width: 750px) {
-    .screenshot.faded {
-        display: none;
-    }
 }
