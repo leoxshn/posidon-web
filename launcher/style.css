@@ -1,0 +1,38 @@
+@keyframes alpha-in-faded{from{opacity:0;}to{opacity:60%;}}
+@keyframes alpha-in{from{opacity:0;}to{opacity:100%;}}
+.screenshot{
+    display:inline-block;
+    background-color:#252627;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    border-top:solid rgba(255, 255, 255, 0.15) 1px;
+    border-bottom:solid rgba(0, 0, 0, 0.4) 1px;
+    border-radius:25px;
+    max-width:50%;
+    width:256px;
+    height:553px;
+    margin:12px;
+    vertical-align:middle;
+	animation-name:alpha-in;
+	animation-duration:0.4s;}
+.screenshot.faded{
+    display:inline-block;
+    background-color:#111213;
+    border-radius:20px;
+    max-width:40%;
+    width:192px;
+    height:414px;
+    opacity:60%;
+    vertical-align:middle;
+    animation-name:alpha-in-faded;
+    animation-duration: 1s;}
+.getitongoogleplay{animation-name:alpha-in;animation-duration:1.5s;}
+.carousel{margin-top:48px;min-height:550px;}
+@media only screen and (max-width:750px){.screenshot.faded{display:none;}}
+@media only screen and (max-width:580px){.screenshot{
+    background-color: #252627;
+    border-radius: 20px;
+    max-width: 90%;
+    width: 256px;
+    margin: 0px;}}
