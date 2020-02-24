@@ -219,14 +219,8 @@ h1 {
 .productCard {
 	background: rgba(13, 18, 22, 0.67);
 	border: solid 1.5px #1d222a;
-	margin-right: 32px;
-	margin-left: 32px;
-	margin-top: 32px;
-	margin-bottom: 32px;
 	border-radius: 18px;
 	text-align: left;
-	width: 100% - 32px;
-	max-width: 630px;
 	animation: ci;
 	animation-duration: 0.1s;
 }.productCard * {
@@ -243,6 +237,15 @@ h1 {
 	margin: 4px;
 	text-shadow: rgba(0, 0, 10, 0.3) 0 1px 0.3px;
 }.productCard div { display: inline-block; }
+.productCardA {
+	display: block;
+	width: 100% - 32px;
+	max-width: 630px;
+	margin-right: 32px;
+	margin-left: 32px;
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
 
 .card {
 	background: rgba(13, 18, 22, 0.67);
