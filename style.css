@@ -146,11 +146,12 @@ h1{color:#ffffff;font-size:56px;margin-top:72px;margin-bottom:32px;font-weight:n
     @keyframes bi{to{padding-left:22px;padding-right:22px;}from{padding-left:26px;padding-right:26px;}}
 	.productCard{
 		animation:none;
-		margin-right:0px;
-		margin-left:0px;
 		border-radius:25px;
 		width:100%;
 		text-align:center;}
+	.productCardA{
+		margin-right:0px;
+		margin-left:0px;}
 	.productCard img{
 		display:block;
     	margin-left:auto;
