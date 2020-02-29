@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="128"
+   height="128"
+   viewBox="0 0 33.866665 33.866668"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="tasks.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6"
+     inkscape:cx="50.328139"
+     inkscape:cy="65.055053"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g823"
+     showgrid="true"
+     units="px"
+     inkscape:window-width="1562"
+     inkscape:window-height="1017"
+     inkscape:window-x="998"
+     inkscape:window-y="30"
+     inkscape:window-maximized="0"
+     inkscape:snap-grids="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid815"
+       empspacing="4" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-263.13331)">
+    <g
+       id="g823">
+      <path
+         inkscape:export-ydpi="1843.2302"
+         inkscape:export-xdpi="1843.2302"
+         inkscape:export-filename="/media/leo/posidon/AndroidStuff/CarbonTasks/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path1308"
+         d="m 25.399325,280.06618 c 2.56e-4,6.77289 -1.692949,8.46616 -8.466086,8.46623 -6.772686,-7e-5 -8.4658901,-1.69334 -8.4658901,-8.46623 0,-6.77286 1.6932041,-8.46613 8.4658901,-8.4662 6.773137,7e-5 8.466342,1.69334 8.466086,8.4662 z"
+         style="opacity:1;fill:#1d222a;fill-opacity:1;stroke:none;stroke-width:3.38644075" />
+      <g
+         id="g2172"
+         transform="matrix(5.1193436,0,0,5.1193436,10.160739,-624.08448)">
+        <rect
+           ry="0.13228774"
+           y="175.95312"
+           x="0.92602569"
+           height="0.26457548"
+           width="1.1906034"
+           id="rect1314"
+           style="opacity:0.153;fill:#b8f1ff;fill-opacity:1;stroke:none;stroke-width:0.56919646;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
+        <circle
+           r="0.13228774"
+           cy="176.0854"
+           cx="0.66143644"
+           id="path1316"
+           style="opacity:1;fill:#1155ff;fill-opacity:1;stroke:none;stroke-width:0.59998226;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
+        <rect
+           style="opacity:0.153;fill:#b8f1ff;fill-opacity:1;stroke:none;stroke-width:0.56919646;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           id="rect1364"
+           width="1.1906034"
+           height="0.26457548"
+           x="0.92602569"
+           y="176.48228"
+           ry="0.13228774" />
+        <circle
+           style="opacity:1;fill:#1155ff;fill-opacity:1;stroke:none;stroke-width:0.59998226;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           id="circle1366"
+           cx="0.66143644"
+           cy="176.61456"
+           r="0.13228774" />
+        <rect
+           ry="0.13228774"
+           y="177.01146"
+           x="0.92602569"
+           height="0.26457548"
+           width="1.1906034"
+           id="rect1371"
+           style="opacity:0.153;fill:#b8f1ff;fill-opacity:1;stroke:none;stroke-width:0.56919646;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
+        <circle
+           r="0.13228774"
+           cy="177.14374"
+           cx="0.66143644"
+           id="circle1374"
+           style="opacity:1;fill:#1155ff;fill-opacity:1;stroke:none;stroke-width:0.59998226;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
+      </g>
+    </g>
+  </g>
+</svg>
