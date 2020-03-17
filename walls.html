@@ -11,7 +11,7 @@
 		<meta name="theme-color" content="#000000">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	</head>
-	<body>
+	<body style="overflow:hidden;">
 		<a href="../" draggable="false"><h2 style="margin-top: 12px; margin-bottom: 6px;">
 			<img src="img/rsk.png" height=42px draggable="false" style="vertical-align: middle; margin-right: 10px; margin-left: 10px"/>
 			posidon
@@ -22,7 +22,24 @@
 		<a class="topRight" href="texter" draggable="false">Texter</a>
 		<a class="topRight" href="https://github.com/leoxshn" draggable="false">Github</a>
 		<a class="topRight" href="https://twitter.com/posidon" draggable="false">Twitter</a>
-		<iframe src="https://leoxshn.github.io/walls" style="position:absolute;top:72px;left:0;width:100%;height:calc(100% - 72px);border:none;"></iframe>
-		<div style="position:absolute;top:72px;left:0;width:100%;height:calc(100% - 72px);box-shadow:#000 0 70px 30px -30px inset;pointer-events:none;"></div>
+		<iframe id="iframe" src="https://leoxshn.github.io/walls" style="position:absolute;top:72px;left:0;width:100%;height:calc(100% - 72px);border:none;"></iframe>
+		<div id="topshadow" style="position:absolute;top:72px;left:0;width:100%;height:calc(100% - 72px);box-shadow:#000 0 70px 30px -30px inset;pointer-events:none;"></div>
+		<script>
+		function getScrollbarWidth(){
+			const outer=document.createElement('div');
+			outer.style.visibility='hidden';
+			outer.style.overflow='scroll';
+			outer.style.msOverflowStyle='scrollbar';
+			document.body.appendChild(outer);
+			const inner=document.createElement('div');
+			outer.appendChild(inner);
+			const scrollbarWidth=outer.offsetWidth-inner.offsetWidth;
+			outer.parentNode.removeChild(outer);
+			return scrollbarWidth;}
+		var iframe=document.getElementById("iframe");
+		iframe.style.width="calc(100% + "+getScrollbarWidth()+"px)";
+		iframe.style.maxWidth="unset";
+		console.log(getScrollbarWidth());
+		</script>
 	</body>
 </html>
