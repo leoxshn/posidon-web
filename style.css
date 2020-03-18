@@ -1,20 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
 @font-face{font-family:"posidonsans";src:url("PosidonSans.ttf");}
-@keyframes alpha-in{from{opacity:0;}to{opacity:100%;}}
-body{background-color:#000000;color:#c0d0de;}*{font-weight:normal;font-family:posidonsans;max-width:100%;}a{text-decoration:none;outline:0;}::-moz-selection,::selection{color:#b0ffff;background-color:#003940;border-radius:10px;}
-p{text-align:left;font-size:16px;animation-name:alpha-in;animation-duration:0.8s;}
-h3{text-align:left;color:#ffffff;font-size:20px;animation-name:alpha-in;animation-duration:0.6s;font-family:'Lexend Deca', sans-serif;}
-h2{color:#ffffff;font-size:24px;display:inline-block;}
-.slogan{color:#abbccd;font-size:24px;display:inline-block;animation-name:alpha-in;animation-duration:0.4s;font-family:'Lexend Deca', sans-serif;}
-h1{color:#ffffff;font-size:56px;margin-top:72px;margin-bottom:32px;font-weight:normal;}
+@keyframes alpha-in{from{opacity:0;}to{opacity:100%;}}body{background-color:#000000;color:#c0d0de;}*{scrollbar-width:thin;font-weight:normal;font-family:posidonsans;max-width:100%;}a{text-decoration:none;outline:0;}::-moz-selection,::selection{color:#b0ffff;background-color:#003940;border-radius:10px;}p{text-align:left;font-size:16px;animation-name:alpha-in;animation-duration:.8s;}h3{text-align:left;color:#ffffff;font-size:20px;animation-name:alpha-in;animation-duration:.6s;font-family:'Lexend Deca',sans-serif;}h2{color:#ffffff;font-size:24px;display:inline-block;}.slogan{color:#abbccd;font-size:24px;display:inline-block;animation-name:alpha-in;animation-duration:.4s;font-family:'Lexend Deca',sans-serif;}h1{color:#ffffff;font-size:56px;margin-top:72px;margin-bottom:32px;font-weight:normal;}
 @keyframes b{from{padding-left:20px;padding-right:20px;}to{padding-left:26px;padding-right:26px;}}
 @keyframes bi{to{padding-left:20px;padding-right:20px;}from{padding-left:26px;padding-right:26px;}}
 .topRight{
 	animation:bi;
-	animation-duration:0.08s;
+	animation-duration:.08s;
     color:#6d727a;
     font-size:16px;
-	background:rgba(13, 18, 22, 0.67);
+	background:rgba(13,18,22,.67);
 	border:solid 1.5px #1d222a;
     padding-top:10px;
     padding-bottom:10px;
@@ -29,7 +23,7 @@ h1{color:#ffffff;font-size:56px;margin-top:72px;margin-bottom:32px;font-weight:n
     float:right;}
 .topRight:hover{
 	animation:b;
-	animation-duration:0.08s;
+	animation-duration:.08s;
     padding-left:26px;
     padding-right:26px;}
 .topRightIcon{
@@ -41,10 +35,10 @@ h1{color:#ffffff;font-size:56px;margin-top:72px;margin-bottom:32px;font-weight:n
     margin-right:8px;}
 .btn{
 	animation:bi;
-	animation-duration:0.08s;
+	animation-duration:.08s;
     color:#6d727a;
     font-size:16px;
-	background:rgba(13, 18, 22, 0.67);
+	background:rgba(13,18,22,.67);
 	border:solid 1.5px #1d222a;
     padding-top:10px;
     padding-bottom:10px;
@@ -58,13 +52,13 @@ h1{color:#ffffff;font-size:56px;margin-top:72px;margin-bottom:32px;font-weight:n
 	vertical-align:middle;}
 .btn:hover{
 	animation:b;
-	animation-duration:0.08s;
+	animation-duration:.08s;
 	padding-left:26px;
     padding-right:26px;}
 .btn *{vertical-align:middle;display:inline;}
 .btn.highlighted{
     color:#5388ff;
-	background:rgba(17, 85, 255, 0.141);
+	background:rgba(17,85,255,.141);
 	border:solid 1.5px #1155ff;}
 .copyright{
 	color:#21272d;
@@ -73,22 +67,22 @@ h1{color:#ffffff;font-size:56px;margin-top:72px;margin-bottom:32px;font-weight:n
 @keyframes c{0% {padding:0px;}100% {padding:15px;}}
 @keyframes ci{0%{padding:15px;}100%{padding:0px;}}
 .productCard{
-	background:rgba(13, 18, 22, 0.67);
+	background:rgba(13,18,22,.67);
 	border:solid 1.5px #1d222a;
 	border-radius:18px;
 	text-align:left;
 	animation:ci;
-	animation-duration:0.1s;}
+	animation-duration:.1s;}
 .productCard *{vertical-align:middle;}
 .productCard:hover{
 	animation:c;
-	animation-duration:0.1s;
+	animation-duration:.1s;
 	padding:15px;}
-.productCard h2{margin:4px;text-shadow:rgba(0, 0, 10, 0.3) 0 1px 0.5px;}
+.productCard h2{margin:4px;text-shadow:rgba(0,0,10,.3) 0 1px .5px;}
 .productCard p{
-	color:rgba(220, 255, 255, 0.5);
+	color:rgba(220,255,255,.5);
 	margin:4px;
-	text-shadow:rgba(0, 0, 10, 0.3) 0 1px 0.3px;}
+	text-shadow:rgba(0,0,10,.3) 0 1px .3px;}
 .productCard div{display:inline-block;}
 .productCardA{
 	display:block;
@@ -99,7 +93,7 @@ h1{color:#ffffff;font-size:56px;margin-top:72px;margin-bottom:32px;font-weight:n
 	margin-top:32px;
 	margin-bottom:32px;}
 .card{
-	background:rgba(13, 18, 22, 0.67);
+	background:rgba(13,18,22,.67);
 	border:solid 1.5px #1d222a;
 	margin-right:32px;
 	margin-left:32px;
@@ -110,29 +104,28 @@ h1{color:#ffffff;font-size:56px;margin-top:72px;margin-bottom:32px;font-weight:n
 	text-align:left;
 	width:100% - 32px;
 	max-width:630px;}
-.card h2{margin:4px;text-shadow:rgba(0, 0, 10, 0.3) 0 1px 0.5px;}
-.card p{color:rgba(220, 255, 255, 0.5);margin:4px;}
+.card h2{margin:4px;text-shadow:rgba(0,0,10,.3) 0 1px .5px;}
+.card p{color:rgba(220,255,255,.5);margin:4px;}
 .absoluteCenter{
 	text-align:center;
 	vertical-align:middle;
 	position:fixed;
-	top:50%;
-	left:50%;
-	-ms-transform:translate(-50%, -50%);
-	transform:translate(-50%, -50%);}
+	top:50%;left:50%;
+	-ms-transform:translate(-50%,-50%);
+	transform:translate(-50%,-50%);}
 @media only screen and (max-width:700px){
 	.topRight{
-		animation: none;
-	    padding-left: 16px;
-	    padding-right: 16px;
-		margin-left: 4px;
-		margin-right: 4px;
-		border-radius: 56px;
-		font-size: 14px;}
+		animation:none;
+	    padding-left:16px;
+	    padding-right:16px;
+		margin-left:4px;
+		margin-right:4px;
+		border-radius:56px;
+		font-size:14px;}
 	.topRight:hover{
-		animation: none;
-		padding-left: 16px;
-		padding-right: 16px;}}
+		animation:none;
+		padding-left:16px;
+		padding-right:16px;}}
 .mobile{display:none;}
 @media only screen and (max-width:580px){
     h1{
