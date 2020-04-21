@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
 @font-face{font-family:"posidonsans";src:url("PosidonSans.ttf");}
-@keyframes alpha-in{from{opacity:0;}to{opacity:100%;}}body{background-color:#000000;color:#c0d0de;}*{scrollbar-width:thin;font-weight:normal;font-family:posidonsans;max-width:100%;}a{outline:0;text-decoration-color:#17C25B;color:unset;text-decoration-thickness:2px;}::-moz-selection,::selection{color:#b0ffff;background-color:#003940;border-radius:10px;}p{text-align:left;font-size:16px;animation-name:alpha-in;animation-duration:.8s;}h3{text-align:left;color:#ffffff;font-size:20px;animation-name:alpha-in;animation-duration:.6s;font-family:'Lexend Deca',sans-serif;}h2{color:#ffffff;font-size:24px;display:inline-block;}.slogan{color:#abbccd;font-size:24px;display:inline-block;animation-name:alpha-in;animation-duration:.4s;font-family:'Lexend Deca',sans-serif;}h1{color:#ffffff;font-size:56px;margin-top:72px;margin-bottom:32px;font-weight:normal;}
+@keyframes alpha-in{from{opacity:0;}to{opacity:100%;}}body{background-color:#000000;color:#c0d0de;}*{scrollbar-width:thin;font-weight:normal;font-family:posidonsans;max-width:100%;}a{text-decoration:none;outline:0;}::-moz-selection,::selection{color:#b0ffff;background-color:#003940;border-radius:10px;}p{text-align:left;font-size:16px;animation-name:alpha-in;animation-duration:.8s;}h3{text-align:left;color:#ffffff;font-size:20px;animation-name:alpha-in;animation-duration:.6s;font-family:'Lexend Deca',sans-serif;}h2{color:#ffffff;font-size:24px;display:inline-block;}.slogan{color:#abbccd;font-size:24px;display:inline-block;animation-name:alpha-in;animation-duration:.4s;font-family:'Lexend Deca',sans-serif;}h1{color:#ffffff;font-size:56px;margin-top:72px;margin-bottom:32px;font-weight:normal;}
 @keyframes b{from{padding-left:20px;padding-right:20px;}to{padding-left:26px;padding-right:26px;}}
 @keyframes bi{to{padding-left:20px;padding-right:20px;}from{padding-left:26px;padding-right:26px;}}
 .topRight{
@@ -20,8 +20,7 @@
     margin-right:8px;
     border-radius:56px;
     display:inline-block;
-    float:right;
-    text-decoration:none;}
+    float:right;}
 .topRight:hover{
 	animation:b;
 	animation-duration:.08s;
@@ -50,8 +49,7 @@
     margin-left:8px;
     margin-right:8px;
     border-radius:56px;
-	vertical-align:middle;
-    text-decoration:none;}
+	vertical-align:middle;}
 .btn:hover{
 	animation:b;
 	animation-duration:.08s;
@@ -93,8 +91,7 @@
 	margin-right:32px;
 	margin-left:32px;
 	margin-top:32px;
-	margin-bottom:32px;
-    text-decoration:none;}
+	margin-bottom:32px;}
 .card{
 	background:rgba(13,18,22,.67);
 	border:solid 1.5px #1d222a;

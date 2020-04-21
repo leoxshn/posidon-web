@@ -41,7 +41,7 @@
 				<div id="scrn2" draggable="false" class="screenshot faded right"></div>
 			</div>
 			<script language="javascript">
-				var screenshots = 15
+				var screenshots = 14
 				var r1 = Math.floor(Math.random() * screenshots);
 				document.getElementById("scrn0").style.backgroundImage="url(launcher/screenshots/home" + r1 + ".webp)";
 				var r2 = Math.floor(Math.random() * (screenshots - 1));
@@ -63,7 +63,7 @@
 				<h3 style="margin-top: 12px; margin-bottom: 10px">Coolest features</h3>
 				<p>
 					- News & Notifications feed<br>
-					- <a href="walls">posidon walls</a> gallery<br>
+					- Wallpaper gallery<br>
 					- Blur behind app drawer<br>
 					- 5 Font options<br>
 					- Experimental desktop mode for Android 10<br>
