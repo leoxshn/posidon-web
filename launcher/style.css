@@ -20,7 +20,7 @@
 .screenshot.faded{
     display:inline-block;
     background-color:#111213;
-    border-radius:20px;
+    border-radius:18px;
     max-width:40%;
     width:192px;
     height:414px;
@@ -30,12 +30,12 @@
     z-index:-1;}
 .screenshot.right{animation-name:alpha-in-faded-right;}
 .screenshot.left{animation-name:alpha-in-faded-left;}
-.getitongoogleplay{animation-name:alpha-in;animation-duration:1.5s;}
+.getItOnBadge{animation-name:alpha-in;animation-duration:1.5s;text-decoration:none;}
 .carousel{margin-top:48px;min-height:550px;}
 @media only screen and (max-width:750px){.screenshot.faded{display:none;}}
 @media only screen and (max-width:580px){.screenshot{
-    background-color: #252627;
-    border-radius: 20px;
-    max-width: 90%;
-    width: 256px;
-    margin: 0px;}}
+    background-color:#252627;
+    border-radius:20px;
+    max-width:90%;
+    width:256px;
+    margin:0px;}}
