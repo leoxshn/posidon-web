@@ -1,82 +1,69 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>posidon launcher</title>
-		<script type="application/ld+json">{"@context":"https://schema.org","@type":"MobileApplication","name":"posidon launcher","operatingSystem":"Android","applicationCategory":"DesktopEnhancementApplication","offers": {"@type":"Offer","price":"0"}}</script>
-		<meta name="description" content="posidon launcher">
-		<meta name="author" content="Leo Shneyderis">
-		<meta name="keywords" content="posidon, launcher, feed, one, page, scroll, home, homescreen, android, customization, personalization, custom">
-		<link rel="stylesheet" href="style.css">
-		<link rel="stylesheet" href="launcher/style.css">
-		<link rel="icon" href="launcher/fav16.png">
-		<meta name="theme-color" content="#000000">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta property="og:url" content="https://posidon.io/launcher">
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:site" content="@posidon">
-        <meta name="twitter:creator" content="@posidon">
-		<meta name="twitter:image:src" content="https://posidon.io/img/banner.png">
-		<meta name="twitter:app:id:googleplay" content="posidon.launcher">
-        <meta property="og:title" content="posidon launcher">
-        <meta property="og:description" content="An android launcher with a scrolling feed instead of pages">
-        <meta property="og:type" content="website">
-        <meta property="og:image" content="http://posidon.io/img/banner.png">
-	</head>
-	<body>
-		<a href="../" draggable="false"><h2 style="margin-top:18px;">
-			<img src="img/logo_blue.png" height=32px draggable="false" style="margin-left:10px;"/>
-		</h2></a>
-		<a class="topRightIcon mobile" href="https://twitter.com/posidon" draggable="false"><img src="img/twitter.svg" height=26px/></a>
-		<a class="topRightIcon mobile" href="https://github.com/leoxshn" draggable="false"><img src="img/git.svg" height=26px/></a>
-		<a class="topRight" href="launcher" draggable="false">posidon launcher</a>
-		<a class="topRight" href="texter" draggable="false">Texter</a>
-		<a class="topRight" href="https://github.com/leoxshn" draggable="false">Github</a>
-		<a class="topRight" href="https://twitter.com/posidon" draggable="false">Twitter</a>
-		<center>
-			<h1>posidon launcher</h1>
-			<div class="carousel">
-				<div id="scrn0" draggable="false" class="screenshot faded left"></div>
-				<div id="scrn1" draggable="false" class="screenshot"></div>
-				<div id="scrn2" draggable="false" class="screenshot faded right"></div>
-			</div>
-			<script language="javascript">
-				var screenshots = 16
-				var r1 = Math.floor(Math.random() * screenshots);
-				document.getElementById("scrn0").style.backgroundImage="url(launcher/screenshots/home" + r1 + ".webp)";
-				var r2 = Math.floor(Math.random() * (screenshots - 1));
-				if (r2 == r1) r2++;
-				document.getElementById("scrn1").style.backgroundImage="url(launcher/screenshots/home" + r2 + ".webp)";
-				var r3 = 1 + Math.floor(Math.random() * (screenshots - 3));
-				if (r3 == r2) r3++;
-				else if (r3 == r1) {
-					r3 += 2;
-					if (r3 == r2 || r3 > screenshots - 1) r3 -= 3;
-				}
-				document.getElementById("scrn2").style.backgroundImage="url(launcher/screenshots/home" + r3 + ".webp)";
-			</script>
-			<div style="margin-top:32px;margin-bottom:24px">
-				<p style="width:256px;">Posidon launcher is a minimal, one page homescreen with a vertical scrolling feed.</p>
-				<a class="getItOnBadge" draggable="false" href="https://www.f-droid.org/packages/posidon.launcher">
-					<img alt='Get it on F-Droid' draggable="false" src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" height=96px/>
-				</a>
-				<a class="getItOnBadge" draggable="false" href="https://play.google.com/store/apps/details?id=posidon.launcher">
-					<img alt='Get it on Google Play' draggable="false" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" height=96px/>
-				</a>
-				<h3 style="width:256px;margin-top:12px;margin-bottom:10px">Coolest features</h3>
-				<p style="width:256px;">
-					- News & Notifications feed<br>
-					- <a href="walls">posidon walls</a> gallery<br>
-					- Blur behind app drawer<br>
-					- Experimental desktop mode for Android 10<br>
-					- Vector and animated iconpack support<br>
-				</p>
-			</div>
-			<div style="margin-top: 48px; margin-bottom: 36px">
-				<a class="btn highlighted" href="https://t.me/posidonlauncher">Telegram</a>
-				<a class="btn highlighted" href="https://discord.gg/jqkRwct">Discord</a>
-			</div>
-		</center>
-		<p class="copyright">Copyright &copy; Leo Shneyderis <script type="text/javascript">document.write(new Date().getFullYear())</script></p>
-	</body>
-</html>
+<!doctype html><meta charset=utf-8><title>posidon launcher</title>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"MobileApplication","name":"posidon launcher","operatingSystem":"Android","applicationCategory":"DesktopEnhancementApplication","offers": {"@type":"Offer","price":"0"}}</script>
+<meta name=description content="posidon launcher">
+<meta name=author content="Leo Shneyderis">
+<meta name=keywords content="posidon, launcher, feed, one, page, scroll, home, homescreen, android, customization, personalization, custom">
+<link rel=stylesheet href=style.css>
+<link rel=stylesheet href=launcher/style.css>
+<link rel=icon href=launcher/fav16.png>
+<meta name=theme-color content=#000000>
+<meta name=viewport content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta property=og:url content=https://posidon.io/launcher>
+<meta name=twitter:card content=summary_large_image>
+<meta name=twitter:site content=@posidon>
+<meta name=twitter:creator content=@posidon>
+<meta name=twitter:image:src content=https://posidon.io/img/banner.png>
+<meta name=twitter:app:id:googleplay content=posidon.launcher>
+<meta property=og:title content="posidon launcher">
+<meta property=og:description content="An android launcher with a scrolling feed instead of pages">
+<meta property=og:type content=website>
+<meta property=og:image content=http://posidon.io/img/banner.png>
+<a href=../ draggable=false><h2 style=margin-top:18px;>
+	<img src=img/logo_blue.png height=32px draggable=false style=margin-left:10px>
+</h2></a>
+<a class="topRightIcon mobile" href=https://twitter.com/posidon draggable=false><img src=img/twitter.svg height=26px></a>
+<a class="topRightIcon mobile" href=https://github.com/leoxshn draggable=false><img src=img/git.svg height=26px></a>
+<a class=topRight href=launcher draggable=false>posidon launcher</a>
+<a class=topRight href=texter draggable=false>Texter</a>
+<a class=topRight href=https://github.com/leoxshn draggable=false>Github</a>
+<a class=topRight href=https://twitter.com/posidon draggable=false>Twitter</a>
+<center>
+	<h1>posidon launcher</h1>
+	<div class=carousel>
+		<div id=scrn0 draggable=false class="screenshot faded left"></div>
+		<div id=scrn1 draggable=false class=screenshot></div>
+		<div id=scrn2 draggable=false class="screenshot faded right"></div>
+	</div>
+	<script>
+		var screenshots=16,r1=Math.floor(Math.random()*screenshots);
+		document.getElementById("scrn0").style.backgroundImage="url(launcher/screenshots/home"+r1+".webp)";
+		var r2=Math.floor(Math.random()*(screenshots-1));
+		if(r2==r1)r2++;
+		document.getElementById("scrn1").style.backgroundImage="url(launcher/screenshots/home"+r2+".webp)";
+		var r3 = 1+Math.floor(Math.random()*(screenshots-3));
+		if(r3==r2)r3++;
+		else if(r3==r1){r3+=2;if(r3==r2||r3>screenshots-1)r3-=3;}
+		document.getElementById("scrn2").style.backgroundImage="url(launcher/screenshots/home"+r3+".webp)";
+	</script>
+	<div style=margin-top:32px;margin-bottom:24px>
+		<p style=width:256px>Posidon launcher is a minimal, one page homescreen with a vertical scrolling feed.</p>
+		<a href=https://www.f-droid.org/packages/posidon.launcher class=getItOnBadge draggable=false>
+			<img alt="Get it on F-Droid" draggable=false src=https://fdroid.gitlab.io/artwork/badge/get-it-on.png height=96px>
+		</a>
+		<a href=https://play.google.com/store/apps/details?id=posidon.launcher class=getItOnBadge draggable=false>
+			<img alt="Get it on Google Play" draggable=false src=https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png height=96px>
+		</a>
+		<h3 style=width:256px;margin-top:12px;margin-bottom:10px>Coolest features</h3>
+		<p style=width:256px>
+			- News & Notifications feed<br>
+			- <a href=walls>posidon walls</a> gallery<br>
+			- Blur behind app drawer<br>
+			- Experimental desktop mode for Android 10<br>
+			- Vector and animated iconpack support<br>
+		</p>
+	</div>
+	<div style=margin-top:48px;margin-bottom:36px>
+		<a class="btn highlighted" href=https://t.me/posidonlauncher>Telegram</a>
+		<a class="btn highlighted" href=https://discord.gg/jqkRwct>Discord</a>
+	</div>
+</center><p class=copyright>Copyright &copy; Leo Shneyderis <script>document.write(new Date().getFullYear())</script></p>
