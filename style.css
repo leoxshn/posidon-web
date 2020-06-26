@@ -65,49 +65,49 @@ h3{text-align:left;color:#ffffff;font-size:20px;animation:alpha-in .6s;font-fami
 	color:#21272d;
 	font-size:14px;
 	text-align:center;}
-@keyframes c{0% {padding:0px;}100% {padding:15px;}}
-@keyframes ci{0%{padding:15px;}100%{padding:0px;}}
 .productCard{
-	background:rgba(13,18,22,.67);
-	border:solid 1.5px #1d222a;
+	background:#0D0E0F;
+	box-shadow:0 0 0 1.5px inset #111213;
 	border-radius:18px;
 	text-align:left;
-	animation:ci;
-	animation-duration:.1s;}
+	width:100%;}
 .productCard *{vertical-align:middle;}
 .productCard:hover{
-	animation:c;
-	animation-duration:.1s;
-	padding:15px;}
+	background:#111213;
+	box-shadow:0 0 0 1.5px inset #1D1E1F;}
 .productCard h2{margin:4px;text-shadow:rgba(0,0,10,.3) 0 1px .5px;}
 .productCard p{
-	color:rgba(220,255,255,.5);
+	color:#545556;
 	margin:4px;
 	text-shadow:rgba(0,0,10,.3) 0 1px .3px;}
 .productCard div{display:inline-block;}
 .productCardA{
-	display:block;
-	width:100% - 32px;
-	max-width:630px;
-	margin-right:32px;
-	margin-left:32px;
+	display:inline-block;
+	width:440px;
+	max-width:100%;
+	margin-right:16px;
+	margin-left:16px;
 	margin-top:32px;
-	margin-bottom:32px;
     text-decoration:none;}
 .card{
-	background:rgba(13,18,22,.67);
-	border:solid 1.5px #1d222a;
+	background:#0D0E0F;
+	box-shadow:0 0 0 1.5px inset #111213;
+	border-radius:18px;
 	margin-right:32px;
 	margin-left:32px;
 	margin-top:32px;
 	margin-bottom:32px;
 	padding:15px;
-	border-radius:18px;
 	text-align:left;
 	width:100% - 32px;
 	max-width:630px;}
-.card h2{margin:4px;text-shadow:rgba(0,0,10,.3) 0 1px .5px;}
-.card p{color:rgba(220,255,255,.5);margin:4px;}
+.card h2{
+	margin:4px;
+	text-shadow:rgba(0,0,10,.3) 0 1px .5px;}
+.card p{
+	color:#545556;
+	margin:4px;
+	text-shadow:rgba(0,0,10,.3) 0 1px .3px;}
 .absoluteCenter{
 	text-align:center;
 	vertical-align:middle;
@@ -139,7 +139,7 @@ h3{text-align:left;color:#ffffff;font-size:20px;animation:alpha-in .6s;font-fami
     .topRight{display:none;}.topRightIcon.mobile{display:block;}
 	.productCard{
 		animation:none;
-		border-radius:25px;
+		border-radius:20px;
 		width:100%;
 		text-align:center;}
 	.productCardA{
@@ -151,4 +151,6 @@ h3{text-align:left;color:#ffffff;font-size:20px;animation:alpha-in .6s;font-fami
     	margin-right:auto;
 		margin-bottom:-28px;}
 	.productCard div{margin: 20px;}
-	.productCard:hover{animation:none;padding:0;}}
+	.productCard:hover{
+		background:#0D0E0F;
+		box-shadow:0 0 0 1.5px inset #111213;}}
