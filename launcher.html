@@ -34,12 +34,12 @@
 		<div id=scrn2 draggable=false class="screenshot faded right"></div>
 	</div>
 	<script>
-		var screenshots=17,r1=Math.floor(Math.random()*screenshots);
+		var screenshots=18,r1=Math.floor(Math.random()*screenshots);
 		document.getElementById("scrn0").style.backgroundImage="url(launcher/screenshots/home"+r1+".webp)";
 		var r2=Math.floor(Math.random()*(screenshots-1));
 		if(r2==r1)r2++;
 		document.getElementById("scrn1").style.backgroundImage="url(launcher/screenshots/home"+r2+".webp)";
-		var r3 = 1+Math.floor(Math.random()*(screenshots-3));
+		var r3=1+Math.floor(Math.random()*(screenshots-3));
 		if(r3==r2)r3++;
 		else if(r3==r1){r3+=2;if(r3==r2||r3>screenshots-1)r3-=3;}
 		document.getElementById("scrn2").style.backgroundImage="url(launcher/screenshots/home"+r3+".webp)";
