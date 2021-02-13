@@ -10,30 +10,14 @@ h1{color:#ffffff;font-size:56px;margin-top:72px;margin-bottom:32px;font-weight:n
 h2{color:#ffffff;font-size:24px;display:inline-block;}
 h3{text-align:left;color:#ffffff;font-size:20px;animation:alpha-in .6s;font-family:'Lexend Deca',sans-serif;}
 .slogan{color:#abbccd;font-size:24px;display:inline-block;animation-name:alpha-in;animation-duration:.4s;font-family:'Lexend Deca',sans-serif;}
-.topRight{
-    color:#E1E2E3;
-    font-size:16px;
-    padding-top:10px;
-    padding-bottom:10px;
-    padding-left:20px;
-    padding-right:20px;
-    margin-top:14px;
-    margin-bottom:20px;
-    margin-left:-8px;
-    border-radius:56px;
-    display:inline-block;
-    float:right;
-    text-decoration:none;}
-.topRight:hover{
-	background:#111213;
-	box-shadow:inset 0 0 0 1px #1D1E1F;}
+.topLeftLogo{margin-top:12px;margin-left:16px;}
 .topRightIcon{
     display:block;
     float:right;
     margin-top:14px;
     margin-bottom:20px;
-    margin-left:8px;
-    margin-right:8px;}
+    margin-right:16px;}
+.topRightIcon:hover{filter:brightness(120%);}
 .btn{
     color:#6d727a;
     font-size:16px;
@@ -83,7 +67,7 @@ h3{text-align:left;color:#ffffff;font-size:20px;animation:alpha-in .6s;font-fami
 .productCard div{display:inline-block;}
 .productCardA{
 	display:inline-block;
-	width:440px;
+	width:502px;
 	max-width:100%;
 	margin-right:16px;
 	margin-left:16px;
@@ -115,20 +99,6 @@ h3{text-align:left;color:#ffffff;font-size:20px;animation:alpha-in .6s;font-fami
 	top:50%;left:50%;
 	-ms-transform:translate(-50%,-50%);
 	transform:translate(-50%,-50%);}
-@media only screen and (max-width:700px){
-	.topRight{
-		animation:none;
-	    padding-left:16px;
-	    padding-right:16px;
-		margin-left:4px;
-		margin-right:4px;
-		border-radius:56px;
-		font-size:14px;}
-	.topRight:hover{
-		animation:none;
-		padding-left:16px;
-		padding-right:16px;}}
-.mobile{display:none;}
 @media only screen and (max-width:580px){
     h1{
 		color:#ffffff;
@@ -136,7 +106,6 @@ h3{text-align:left;color:#ffffff;font-size:20px;animation:alpha-in .6s;font-fami
 		margin-top:72px;
 		margin-bottom:32px;
 		font-weight:normal;}
-    .topRight{display:none;}.topRightIcon.mobile{display:block;}
 	.productCard{
 		animation:none;
 		border-radius:20px;
